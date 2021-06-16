@@ -1,5 +1,6 @@
 class Solution {
 public:
+    if(n==0||n==1)return n;
     int getMaximumGenerated(int n) 
     {
             vector<int>nums(n+1);
